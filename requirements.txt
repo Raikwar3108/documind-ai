@@ -1,0 +1,13 @@
+streamlit
+openai
+python-dotenv
+numpy
+torch
+langchain
+langchain_core
+langchain_text_splitters
+langchain_community
+pypdf
+scikit-learn
+pymupdf
+rank-bm25
