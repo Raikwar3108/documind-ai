@@ -202,6 +202,20 @@ ul[role="listbox"] li:hover {
     color: #0f172a !important;
 }
 
+/* Streamlit Cloud Selectbox Fix */
+
+div[data-baseweb="select"] span {
+    color: #ffffff !important;
+}
+
+div[data-baseweb="select"] input {
+    color: #ffffff !important;
+}
+
+div[data-baseweb="select"] {
+    color: #ffffff !important;
+}
+
 /* =====================================================
 BUTTONS
 ===================================================== */
@@ -328,4 +342,30 @@ SCROLLBAR
 ::-webkit-scrollbar-thumb {
     background: #00b4d8;
     border-radius: 10px;
+}
+
+    color: #cbd5e1 !important;
+}
+
+/* Dark dropdown theme */
+
+div[data-baseweb="select"] {
+    background-color: #252836 !important;
+}
+
+div[data-baseweb="select"] * {
+    color: white !important;
+}
+
+div[data-baseweb="select"] svg {
+    fill: white !important;
+}
+
+
+/* Force all selectbox text visible */
+
+[data-baseweb="select"] *,
+[data-baseweb="popover"] *,
+[role="listbox"] * {
+    color: white !important;
 }
