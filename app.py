@@ -35,7 +35,7 @@ load_css("style.css")
 
 
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # -----------------------------
 # Streamlit UI
