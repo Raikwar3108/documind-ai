@@ -224,67 +224,59 @@ FILE UPLOADER
 }
 
 
-/* =========================
-   SELECTBOX
-========================= */
 
-.stSelectbox div[data-baseweb="select"] {
-    background-color: #ffffff !important;
-    border: 1px solid #cbd5e1 !important;
-    border-radius: 12px !important;
+/* =====================================================
+SELECTBOX
+===================================================== */
+
+.stSelectbox div[data-baseweb="select"]{
+    background:#ffffff !important;
+    border:1px solid #cbd5e1 !important;
+    border-radius:12px !important;
 }
 
-/* Selected text */
-.stSelectbox div[data-baseweb="select"] span {
-    color: #0f172a !important;
-    font-weight: 600 !important;
+.stSelectbox input{
+    color:#0f172a !important;
+    -webkit-text-fill-color:#0f172a !important;
+    font-weight:600 !important;
 }
 
-/* Dropdown arrow */
-.stSelectbox svg {
-    fill: #0f172a !important;
+.stSelectbox input:focus{
+    color:#0f172a !important;
+    -webkit-text-fill-color:#0f172a !important;
 }
 
-/* Selected value text */
-.stSelectbox div[data-baseweb="select"] span {
-    color: #0f172a !important;
-    font-weight: 600 !important;
+.stSelectbox svg{
+    fill:#0f172a !important;
 }
 
-/* Inner text container */
-.stSelectbox div[data-baseweb="select"] * {
-    color: #0f172a !important;
-}
-
-/* Dropdown arrow */
-.stSelectbox svg {
-    fill: #0f172a !important;
-}
-
-
-/* Dropdown popup */
-div[data-baseweb="popover"] {
-    background-color: #ffffff !important;
+/* Dropdown menu */
+[role="listbox"]{
+    background:#ffffff !important;
 }
 
 /* Dropdown options */
-ul[role="listbox"] li {
-    background-color: #ffffff !important;
-    color: #0f172a !important;
-    font-weight: 500 !important;
+[role="option"]{
+    color:#0f172a !important;
+    background:#ffffff !important;
 }
 
-/* Hover */
-ul[role="listbox"] li:hover {
-    background-color: #e0f7fa !important;
-    color: #0f172a !important;
+[role="option"]:hover{
+    background:#e0f7fa !important;
+    color:#0f172a !important;
 }
 
-/* Labels */
+/* Streamlit Cloud compatibility */
+div[value]{
+    color:#0f172a !important;
+    font-weight:600 !important;
+}
+
 label {
     color: #0f172a !important;
     font-weight: 600 !important;
 }
+
 
 /* =====================================================
 BUTTONS
